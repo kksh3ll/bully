@@ -1,13 +1,14 @@
 package main
 
 import (
-	"bullyx/bully"
 	"flag"
 	"fmt"
 	"net"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/kksh3ll/bully/bully"
 )
 
 var argvPort = flag.Int("port", 8117, "port to listen")

@@ -1,4 +1,4 @@
-module bullyx
+module github.com/kksh3ll/bully
 
 go 1.18
 
